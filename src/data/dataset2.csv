@@ -1,0 +1,105 @@
+﻿State,Protein_Source,Source_Type,Protein_Quality,Dietary_Share (%),Protein_Density (g/100g)
+Punjab,Milk,Animal,High,45,3.4
+Punjab,Paneer,Animal,High,25,18
+Punjab,Lentils,Plant,Medium,20,9
+Punjab,Chickpeas,Plant,Medium,10,19
+Haryana,Milk,Animal,High,50,3.4
+Haryana,Paneer,Animal,High,20,18
+Haryana,Lentils,Plant,Medium,20,9
+Haryana,Chickpeas,Plant,Medium,10,19
+Uttar Pradesh,Dal,Plant,Medium,35,9
+Uttar Pradesh,Milk,Animal,High,30,3.4
+Uttar Pradesh,Eggs,Animal,High,15,13
+Uttar Pradesh,Chicken,Animal,High,10,27
+Uttar Pradesh,Fish,Animal,High,10,22
+Uttarakhand,Lentils,Plant,Medium,40,9
+Uttarakhand,Milk,Animal,High,40,3.4
+Uttarakhand,Curd,Animal,High,20,4
+Himachal Pradesh,Rajma,Plant,Medium,35,8.7
+Himachal Pradesh,Chickpeas,Plant,Medium,25,19
+Himachal Pradesh,Milk,Animal,High,20,3.4
+Himachal Pradesh,Eggs,Animal,High,10,13
+Himachal Pradesh,Mutton,Animal,High,10,25
+Jammu & Kashmir,Mutton,Animal,High,40,25
+Jammu & Kashmir,Fish,Animal,High,20,22
+Jammu & Kashmir,Curd,Animal,High,20,4
+Jammu & Kashmir,Rajma,Plant,Medium,20,8.7
+Maharashtra,Moong Dal,Plant,Medium,35,9
+Maharashtra,Masoor Dal,Plant,Medium,25,9
+Maharashtra,Milk,Animal,High,20,3.4
+Maharashtra,Fish,Animal,High,15,22
+Maharashtra,Eggs,Animal,High,5,13
+Gujarat,Milk,Animal,High,40,3.4
+Gujarat,Paneer,Animal,High,20,18
+Gujarat,Moong Dal,Plant,Medium,25,9
+Gujarat,Toor Dal,Plant,Medium,15,9
+Goa,Fish,Animal,High,55,22
+Goa,Prawns,Animal,High,25,20
+Goa,Eggs,Animal,High,15,13
+Goa,Dal,Plant,Medium,5,9
+Rajasthan,Lentils,Plant,Medium,45,9
+Rajasthan,Gram Flour,Plant,Medium,30,22
+Rajasthan,Curd,Animal,High,25,4
+Madhya Pradesh,Dal,Plant,Medium,40,9
+Madhya Pradesh,Soy Products,Plant,High,25,36
+Madhya Pradesh,Milk,Animal,High,20,3.4
+Madhya Pradesh,Chicken,Animal,High,15,27
+Tamil Nadu,Sambar Dal,Plant,Medium,40,9
+Tamil Nadu,Urad Dal,Plant,Medium,25,9
+Tamil Nadu,Fish,Animal,High,15,22
+Tamil Nadu,Eggs,Animal,High,10,13
+Tamil Nadu,Chicken,Animal,High,10,27
+Karnataka,Toor Dal,Plant,Low,40,9
+Karnataka,Urad Dal,Plant,Low,25,9
+Karnataka,Milk,Animal,High,20,3.4
+Karnataka,Fish,Animal,High,10,22
+Karnataka,Eggs,Animal,High,5,13
+Kerala,Fish,Animal,High,50,22
+Kerala,Dal,Plant,Medium,30,9
+Kerala,Eggs,Animal,High,15,13
+Kerala,Coconut Milk,Plant,Low,5,2
+Andhra Pradesh,Toor Dal,Plant,Medium,35,9
+Andhra Pradesh,Eggs,Animal,High,20,13
+Andhra Pradesh,Chicken,Animal,High,25,27
+Andhra Pradesh,Fish,Animal,High,20,22
+Telangana,Toor Dal,Plant,Medium,35,9
+Telangana,Eggs,Animal,High,25,13
+Telangana,Chicken,Animal,High,25,27
+Telangana,Fish,Animal,High,15,22
+West Bengal,Fish,Animal,High,50,22
+West Bengal,Eggs,Animal,High,20,13
+West Bengal,Milk,Animal,High,15,3.4
+West Bengal,Dal,Plant,Medium,15,9
+Odisha,Fish,Animal,High,45,22
+Odisha,Prawns,Animal,High,25,20
+Odisha,Dal,Plant,Medium,20,9
+Odisha,Milk,Animal,High,10,3.4
+Bihar,Dal,Plant,Medium,35,9
+Bihar,Milk,Animal,High,25,3.4
+Bihar,Eggs,Animal,High,20,13
+Bihar,Chicken,Animal,High,20,27
+Jharkhand,Lentils,Plant,Medium,35,9
+Jharkhand,Fish,Animal,High,25,22
+Jharkhand,Meat,Animal,High,25,25
+Jharkhand,Eggs,Animal,High,15,13
+Assam,Fish,Animal,High,45,22
+Assam,Duck,Animal,High,30,20
+Assam,Lentils,Plant,Medium,25,9
+Nagaland,Pork,Animal,High,60,26
+Nagaland,Chicken,Animal,High,25,27
+Nagaland,Fish,Animal,High,15,22
+Manipur,Fish,Animal,High,45,22
+Manipur,Chicken,Animal,High,35,27
+Manipur,Soy-based Foods,Plant,Medium,20,36
+Mizoram,Fish,Animal,High,45,22
+Mizoram,Chicken,Animal,High,35,27
+Mizoram,Eggs,Animal,High,20,13
+Meghalaya,Pork,Animal,High,60,26
+Meghalaya,Fish,Animal,High,25,22
+Meghalaya,Eggs,Animal,High,15,13
+Tripura,Fish,Animal,High,50,22
+Tripura,Chicken,Animal,High,30,27
+Tripura,Dal,Plant,Medium,20,9
+Arunachal Pradesh,Pork,Animal,High,50,26
+Arunachal Pradesh,Fish,Animal,High,30,22
+Arunachal Pradesh,Eggs,Animal,High,20,13
