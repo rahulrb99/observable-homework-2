@@ -1,5 +1,10 @@
 name: Deploy to GitHub Pages
 
+# Ensure workflow can write to pages and push
+permissions:
+  contents: read
+  pages: write
+
 on:
   push:
     branches:
@@ -11,8 +16,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (full)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # get full history so gh-pages action can create commits safely
+          persist-credentials: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -25,11 +33,29 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Ensure dist exists (debug)
+        run: |
+          echo "dist list:"
+          ls -la dist || true
+
+      # configure git identity so any commits made by the action have an author
+      - name: Configure git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Add SPA fallback
-        run: cp dist/index.html dist/404.html
+        run: |
+          if [ -f "./dist/index.html" ]; then
+            cp ./dist/index.html ./dist/404.html || true
+          else
+            echo "Error: dist/index.html not found" && exit 1
+          fi
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          # optionally you can set a custom publishing branch:
+          # publish_branch: gh-pages
